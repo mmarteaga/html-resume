@@ -7,16 +7,17 @@
   box-sizing: border-box;
 }
 
+ /* set page length and the width of the sidebar; current main-wdith refers to the body, not the sidebar */
 :root{
   --page-width: 8.5in;
   --page-height: 11in;
-  --main-width: 7in;
+  --main-width: 6.5in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
   --sidebar-horizontal-padding: 0.2in;
 
-  /* XXX: using px for very good precision control */
+/* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
   --decorator-outer-offset-left: -5.5px;
   --decorator-border-width: 1px;
@@ -26,9 +27,11 @@
   --row-blocks-padding-top: 5pt;
   --date-block-width: 0.6in;
 
+  /* this is the icon off setting location, but I have opted to remove these */
   --main-blocks-title-icon-offset-left: -19pt;
 }
 
+/* this defines the type of text within the body of the document */
 body{
   width: var(--page-width);
   height: var(--page-height);
@@ -49,13 +52,15 @@ li{
   list-style-type: none;
 }
 
+/* here is the setup for the body */
 #main{
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7.75pt;
+  font-size: 7pt;
 }
 
+/* and here for the sidebar */
 #sidebar{
   float: right;
   position: relative; /* for disclaimer */
@@ -63,7 +68,7 @@ li{
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 7.75pt;
+  font-size: 7pt;
 }
 
 /* main */
@@ -80,9 +85,10 @@ li{
   line-height: 1.2;
 }
 
+/* This affects the NAME */
 #title h1{
   font-weight: 300;
-  font-size: 18pt;
+  font-size: 16pt;
   line-height: 1.5;
 }
 
@@ -91,6 +97,7 @@ li{
   font-weight: 600;
 }
 
+/* the subtitle underneath the name */
 .subtitle{
   font-size: 8pt;
 }
@@ -101,6 +108,9 @@ li{
   margin-top: 0.1in;
 }
 
+/* *************************************************************************************** */
+/* This is the section by section titles; I use my defined DARKBLUE COLOR which is #366da6 */
+/* *************************************************************************************** */
 #main h2{
   position: relative;
   top: var(--row-blocks-padding-top);
@@ -135,19 +145,6 @@ li{
   content: ' ';
 }
 
-/**** minor tweaks on the icon fonts ****/
-#main h2 > .fa-graduation-cap{
-  left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
-  top: 2pt;
-}
-
-#main h2 > .fa-suitcase{
-  top: 1pt;
-}
-
-#main h2 > .fa-folder-open{
-  top: 1.5pt;
-}
 
 /**** individual row blocks (date - decorator - details) ****/
 
@@ -240,7 +237,7 @@ li{
 }
 
 .details h3{
-  font-size: 9pt;
+  font-size: 8pt;
 }
 
 .main-block:not(.concise) .details div{
@@ -259,7 +256,7 @@ li{
 
 .details .place{
   float: left;
-  font-size: 7.5pt;
+  font-size: 7t;
 }
 
 .details .location{
@@ -321,7 +318,7 @@ li{
 
 #sidebar h1{
   font-weight: 400;
-  font-size: 11pt;
+  font-size: 7.5pt;
 }
 
 .side-block{
@@ -354,7 +351,7 @@ li{
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
   right: var(--sidebar-horizontal-padding);
-  font-size: 7.5pt;
+  font-size: 7pt;
   font-style: italic;
   line-height: 1.1;
   text-align: right;
