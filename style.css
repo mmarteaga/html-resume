@@ -64,7 +64,7 @@ li{
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 10pt;
+  font-size: 8pt;
 }
 
 /* and here for the sidebar */
@@ -75,7 +75,7 @@ li{
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 10pt;
+  font-size: 8pt;
 }
 
 /* main */
@@ -107,10 +107,7 @@ li{
 
 /* the subtitle underneath the name */
 #descript{
-  position: relative;
-  left: 0.55in;
-  line-height: 1.2;
-  font-size: 10pt;
+  font-size: 8pt;
 }
 
 /* the subtitle underneath the name */
@@ -133,7 +130,7 @@ li{
   /* XXX: 0.5px for aligning fx printing */
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
-  font-size: 11pt;
+  font-size: 10pt;
   color: #366da6;
 }
 
@@ -177,7 +174,7 @@ li{
   flex: 0 0 var(--date-block-width);
   padding-top: calc(var(--row-blocks-padding-top) + 2.5pt) !important;
   padding-right: var(--decorator-horizontal-margin);
-  font-size: 8pt;
+  font-size: 7pt;
   text-align: right;
   line-height: 1;
 }
@@ -272,7 +269,7 @@ li{
 
 .details .place{
   float: left;
-  font-size: 8t;
+  font-size: 7t;
 }
 
 .details .location{
@@ -334,7 +331,7 @@ li{
 
 #sidebar h1{
   font-weight: 400;
-  font-size: 10pt;
+  font-size: 8pt;
   color: #366da6;
 }
 
