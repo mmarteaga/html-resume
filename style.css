@@ -90,6 +90,7 @@ li{
   left: 0.55in;
   margin-bottom: 0.3in;
   line-height: 1.2;
+  var(--main-width);
 }
 
 /* This affects the NAME */
@@ -108,7 +109,6 @@ li{
 #descript{
   position: relative;
   left: 0.55in;
-  margin-bottom: 0.3in;
   line-height: 1.2;
   font-size: 8pt;
 }
