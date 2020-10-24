@@ -111,6 +111,8 @@ li{
 .descript{
   text-transform: normal;
   font-size: 7.5pt;
+  float: left;
+  width: var(--main-width);
 }
 
 /* the subtitle underneath the name */
