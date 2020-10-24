@@ -114,7 +114,6 @@ li{
   margin-bottom: 0.3in;
   line-height: 1.2;
   font-size: 8pt;
-  width: var(--main-width);
 }
 
 /* the subtitle underneath the name */
