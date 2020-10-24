@@ -84,9 +84,6 @@ li{
 /* Title and fonts of body */
 /* *************************************************************************************** */
 /** big title **/
-#title, h1, h2{
-  text-transform: uppercase;
-}
 
 #title{
   position: relative;
