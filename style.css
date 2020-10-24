@@ -108,10 +108,12 @@ li{
 }
 
 /* the subtitle underneath the name */
-.descript{
-  text-transform: normal;
-  font-size: 7.5pt;
-  float: left;
+#descript{
+  position: relative;
+  left: 0.55in;
+  margin-bottom: 0.3in;
+  line-height: 1.2;
+  font-size: 8pt;
   width: var(--main-width);
 }
 
