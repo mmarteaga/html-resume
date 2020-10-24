@@ -88,6 +88,10 @@ li{
   text-transform: uppercase;
 }
 
+#title, h3{
+  text-transform: none;
+}
+
 #title{
   position: relative;
   left: 0.55in;
