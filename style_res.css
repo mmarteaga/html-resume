@@ -84,14 +84,6 @@ li{
 /* Title and fonts of body */
 /* *************************************************************************************** */
 /** big title **/
-#title, h1, h2{
-  text-transform: uppercase;
-}
-
-#title, h3{
-  text-transform: none;
-}
-
 #title{
   position: relative;
   left: 0.55in;
