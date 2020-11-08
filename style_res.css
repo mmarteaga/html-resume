@@ -124,7 +124,7 @@ li{
 }
 
 /* *************************************************************************************** */
-/* This is the section by section titles; I use my defined DARKBLUE COLOR which is #366da6 */
+/* This is the section by section titles; I use my defined Wonka Blue which is #455aa4     */
 /* *************************************************************************************** */
 #main h2{
   position: relative;
@@ -334,7 +334,7 @@ li{
 #sidebar h1{
   font-weight: 400;
   font-size: 8pt;
-  color: #366da6;
+  color: #455aa4;
 }
 
 .side-block{
